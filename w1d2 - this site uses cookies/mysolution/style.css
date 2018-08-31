@@ -1,0 +1,19 @@
+body{
+    overflow-x: hidden;
+}
+
+.cookieBox{
+    width: 500px;
+    height: 100px; 
+    bottom: 12px;
+    right: -500px;
+    position: absolute;
+    background-color: aquamarine;
+    animation: slideIn  1s forwards;
+}
+
+@keyframes slideIn {
+    100%{
+        transform: translateX(-520px);
+    }
+}
