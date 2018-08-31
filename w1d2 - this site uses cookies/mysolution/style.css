@@ -9,11 +9,13 @@ body{
     right: -500px;
     position: absolute;
     background-color: aquamarine;
-    animation: slideIn  1s forwards;
+    transition: all 2s ease;
 }
 
-@keyframes slideIn {
-    100%{
-        transform: translateX(-520px);
-    }
+.slideIn {
+    transform: translateX(-520px);
+}
+
+.slideout{
+    transform: translateX(520px);
 }
