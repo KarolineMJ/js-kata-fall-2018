@@ -17,7 +17,6 @@ window.addEventListener("load", function findBTN() {
 }
 );
 
-
 //let acceptance = localStorage.setItem();
 
 
